@@ -1,0 +1,165 @@
+:root {
+  --black: #000;
+  --green: #57d181;
+  --orange: #f4ac41;
+  --red: #f45041;
+  --blue: #41b5f4;
+  --white: #c4c4c4;
+
+  --theme-nb-bg: #111;
+  --theme-nb-hover: #f4ac41;
+  --theme-nb-text: #111;
+  --theme-nb-active: #f4ac41;
+}
+
+.menu-btn {
+  font-size: 30px;
+  cursor: pointer;
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  left: 2px;
+}
+
+.menu-btn:hover {
+  color: var(--orange);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.sidenav {
+  height: 100%;
+  width: 30px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: var(--theme-nb-bg);
+  transition: 0.2s;
+  padding-top: 60px;
+  font-weight: normal;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: var(--white);
+  display: block;
+  transition: 0.2s;
+  font-weight: normal;
+}
+
+.sidenav a:hover {
+  color: var(--theme-nb-text);
+  background-color: var(--theme-nb-active);
+  text-decoration: none;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 215px;
+  font-size: 40px;
+  line-height: 50px;
+  color: var(--white);
+}
+
+.sidenav .closebtn:hover {
+  color: var(--orange);
+  background-color: transparent;
+}
+
+.active {
+  background-color: var(--theme-nb-active);
+  color: var(--theme-nb-text) !important;
+}
+
+.date-in-menu {
+  font-size: 10px;
+  margin: 0px;
+  color: var(--white);
+}
+
+.sidenav a:hover .date-in-menu {
+  color: var(--theme-nb-text);
+}
+
+.active .date-in-menu {
+  color: var(--theme-nb-text);
+}
+
+#home-btn {
+  overflow: hidden;
+  display: none;
+}
+
+#cv-btn {
+  overflow: hidden;
+  display: none;
+}
+
+#finland-btn {
+  padding: 2px 8px 2px 32px;
+  font-size: 18px;
+  overflow: hidden;
+  display: none;
+}
+
+#italy-btn {
+  padding: 2px 8px 2px 32px;
+  font-size: 18px;
+  overflow: hidden;
+  display: none;
+}
+
+.contact {
+  margin-top: 18px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+}
+.contact a {
+  color: var(--orange);
+  font-size: 18px;
+  display: inline-block;
+  padding: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 5px;
+}
+.contact a:hover {
+  color: var(--red);
+  background-color: transparent;
+}
+.c-tooltip {
+  position: relative;
+  display: inline-block;
+  margin: 0px;
+}
+.c-tooltip .c-tooltiptext {
+  font-family: 'Bubbler One';
+  position: absolute;
+  left: 30px;
+  margin: 0px;
+  padding: 2px;
+  white-space: nowrap;
+  border-radius: 5px;
+  visibility: hidden;
+  transition: 0s .05s;
+  width: 200px;
+  background-color: var(--orange);
+  color: var(--black);
+  text-align: center;
+  z-index: 5;
+}
+.phone {
+  left: 28px !important;
+}
+
+.c-tooltip:hover .c-tooltiptext {
+  visibility: visible;
+  transition: 0s;
+}
+
