@@ -1,1 +1,0 @@
-# fernandopal.github.io

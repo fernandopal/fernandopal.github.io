@@ -1,101 +1,176 @@
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="UTF-8">
-    <meta name="description" content="Fernando Palomo Moreno">
-    <meta name="keywords" content="HTML,CSS,XML,JavaScript,Fernando Palomo Moreno,fernandopal,java,discord bot,programmer">
-    <meta name="author" content="Fernando Palomo Moreno">
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- META TAGS -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Fernando,Palomo,Moreno,Fernando Palomo,Fernando Palomo Moreno,fernandopal,fernandopal.es,Web,Developer,Web Developer,Computer,Technician,Computer Technician,Java,JavaScript,Java Script,js,php,mysql,mariadb,mongodb,linux,windows,programmer,html,css">
+        <meta name="author" content="fernandopal, mail@fernandopal.es">
+        <meta name="copyright" content="Fernando Palomo Moreno">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="theme-color" content="#111111">
+        <meta http-equiv="Cache-Control" content="no-transform">
+        <meta http-equiv="Cache-Control" content="no-siteapp">
+        <meta name="description" content="Fernando Palomo Moreno personal website">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Fernando Palomo Moreno">
+        <meta property="og:url" content="https://www.fernandopal.es">
+        <meta property="og:site_name" content="Fernando Palomo Moreno">
+        <meta property="og:description" content="Fernando Palomo Moreno personal website">
+        <meta property="og:locale" content="en_EN">
+        <meta property="og:image" content="https://fernandopal.es/img/favicon.png">
+        <meta property="article:author" content="fernandopal">
+        <meta property="article:tag" content="Fernando,Palomo,Moreno,Fernando Palomo,Fernando Palomo Moreno,fernandopal,fernandopal.es,Web,Developer,Web Developer,Computer,Technician,Computer Technician,Java,JavaScript,Java Script,js,php,mysql,mariadb,mongodb,linux,windows,programmer,html,css">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@fernandopm00" />
+        <meta name="twitter:image" content="https://fernandopal.es/img/favicon.png">
+        <meta name="google-site-verification" content="_WlFpYla-J6f6XHbsJi7XYQ3Ty9c0b6SYSy7tZFqOzk" />
 
-    <script type="text/javascript" src="assets/js/controls.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/sidenav.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/scrollbar.css">
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <link rel="icon" type="image/jpg" href="assets/images/favicon.jpg">
+        <!-- STYLES -->
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css" integrity="sha512-8M8By+q+SldLyFJbybaHoAPD6g07xyOcscIOQEypDzBS+sTde5d6mlK2ANIZPnSyxZUqJfCNuaIvjBUi8/RS0w==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="icons/style.css">
 
-    <title>Fernando Palomo - Home</title>
-  </head>
-  <body id="body">
-    <!--<?php include('html/menu-fragment.html'); ?>-->
-    <div id="menu" class="sidenav" unselectable="on" onselectstart="return false;" onmousedown="return false;">
-      <span>
-        <a id="menu-close-btn" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      </span>
-      <span class="menu-btn" onclick="openNav()" id="menu-btn">&#9776;</span>
+        <!-- FONTS -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&family=Titillium+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap">
 
-      <a id="home-btn" href="./" class="active">Home</a>
-      <a id="cv-btn" href="https://drive.google.com/open?id=1obOgnfBEP2hL9W0d7qVLE-onv_Gw_OAH">Download my CV</a>
-      <a id="finland-btn" href="pages/finland/gallery/">Finland<p class="date-in-menu">(19/03/2019 - 19/06/2019)</p></a>
-      <a id="italy-btn" href="pages/italy/gallery/">Italy<p class="date-in-menu">(31/06/2019 - 31/08/2019)</p></a>
+        <!-- SCRIPTS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/vendors/easings.js" integrity="sha512-FFmLOg/pFlqTgDEWhqL3zxfLRRjv54Dx170T9CgCiTx4+iVVEMPXku6egqJ9wau9y9ORJIaPFuLYR3nsFBm5uQ==" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js" integrity="sha512-Gx/C4x1qubng2MWpJIxTPuWch9O88dhFFfpIl3WlqH0jPHtCiNdYsmJBFX0q5gIzFHmwkPzzYTlZC/Q7zgbwCw==" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js" integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg==" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/vendors/scrolloverflow.min.js" integrity="sha512-pYyQWhzi2lV+RM4GmaUA56VPL48oLVvsHmP9tuQ8MaZMDHomVEDjXXnfSVKXayy+wLclKPte0KbsuVoFImtE7w==" crossorigin="anonymous"></script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script> -->
 
-      <div id="contact-menu" class="contact">
-        <a href="https://twitter.com/fernandopm00" class="fa fa-twitter"></a>
-        <a href="https://instagram.com/fernando_pm00" class="fa fa-instagram"></a>
-        <a href="https://github.com/fernandopal/" class="fa fa-github"></a>
-        <a href="https://steamcommunity.com/id/fernandopal/" class="fa fa-steam"></a>
-        <a href="https://www.paypal.me/fernandopm00" class="fa fa-paypal"></a>
-        <a href="https://codepen.io/fernandopm00/" class="fa fa-codepen"></a>
-        <div id="mail-btn" class="c-tooltip">
-          <a href="mailto:mail@fernandopal.es" class="fa fa-envelope"><span id="mail-text" class="c-tooltiptext">mail@fernandopal.es</span></a>
+        <!-- FULLPAGE.JS CONFIG -->
+        <script src="js/config.js"></script>
+
+        <!-- WEBSITE TITLE -->
+        <title>Fernando Palomo Moreno</title>
+    </head>
+    <body>
+        <div id="header">
+            <a href="#" class="h-title">fernandopal.es</a>
+            <ul>
+                <li>
+                    <a href="mailto:mail@fernandopal.es">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="tel:+34673367018">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/fernandopm00">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://instagram.com/fernando_pm00">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/fernandopal">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
         </div>
-        <div id="tel-btn" class="c-tooltip">
-          <a href="tel:+34673367018" class="fa fa-phone"><span id="tel-text" class="c-tooltiptext phone">+34 673367018</span></a>
-        </div>
-      </div>
-    </div>
-    
-    <div id="blur-container">
-      <div id="main">
-        <div class="container about-me">
-          <p>Hi! Im a 19 years old self-taught programmer from Spain.</p>
-          <p>Welcome to my website :)</p>
-        </div>
-        <div class="container-fluid">
-          <div class="pad-vertical">
-            <div class="row">
-              <div class="col-sm-4 col-xs-12">
-                <div class="ms-container">
-	                <div class="ms-line">
-	                  <a href="pages/projects">
-	                    <div class="ms-mid">
-	                      <i class="fa fa-suitcase"></i>
-	                    </div>
-	                  </div>
-	                </a>
-                  <h2>Projects</h2>
+
+        <div id="fullpage">
+            <div class="section" id="home">
+                <div class="main-text">
+                    <h1>Fernando Palomo</h1>
+                    <span class="subtitle"></span>
                 </div>
-              </div>
-              <div class="col-sm-4 col-xs-12">
-                <div class="ms-container">
-	                <div class="ms-line">
-	                  <a href="pages/about-me">
-	                    <div class="ms-mid">
-	                      <img src="assets/images/favicon.jpg"></img>
-	                    </div>
-	                  </div>
-	                </a>
-	                <h2>About me</h2>
-                </div>
-              </div>
-              <div class="col-sm-4 col-xs-12">
-                <div class="ms-container">
-	                <div class="ms-line">
-	                  <a href="pages/knowledge">
-	                    <div class="ms-mid">
-	                      <i class="fa fa-book"></i>
-	                    </div>
-	                  </div>
-	                </a>
-                  <h2>Experience & knowledge</h2>
-                </div>
-              </div>
+                <a id="goDown">
+                    <i class="fas fa-chevron-circle-down"></i>
+                </a>
             </div>
-          </div>
+            <div class="section fp-auto-height" id="main">
+                <div id="experience">
+                    <h2>Experienced with</h2>
+                    <a class="exp" href="https://www.oracle.com/java/">
+                        <i class="fab fa-java"></i>
+                        <p class="title">java</p>
+                    </a>
+                    <a class="exp" href="https://www.oracle.com/java/technologies/java-ee-glance.html">
+                        <i class="fab fa-java"></i>
+                        <p class="title">java EE</p>
+                    </a>
+                    <a class="exp" href="https://www.php.net">
+                        <i class="fab fa-php"></i>
+                        <p class="title">PHP</p>
+                    </a>
+                    <a class="exp" href="https://www.javascript.com">
+                        <i class="fab fa-js-square"></i>
+                        <p class="title">JavaScript</p>
+                    </a>
+                    <a class="exp" href="https://www.w3.org/html/">
+                        <i class="fab fa-html5"></i>
+                        <p class="title">HTML 5</p>
+                    </a>
+                    <a class="exp" href="https://www.w3.org/css/">
+                        <i class="fab fa-css3-alt"></i>
+                        <p class="title">CSS 3</p>
+                    </a>
+                    <a class="exp" href="https://www.mysql.com">
+                        <span class="icon-mysql"></span>
+                        <p class="title">MySQL</p>
+                    </a>
+                    <a class="exp" href="https://mariadb.org">
+                        <i class="fas fa-database"></i>
+                        <p class="title">MariaDB</p>
+                    </a>
+                    <a class="exp" href="https://www.mongodb.com">
+                        <i class="fas fa-database"></i>
+                        <p class="title">MongoDB</p>
+                    </a>
+                    <a class="exp" href="https://www.eclipse.org">
+                        <span class="icon-eclipse"></span>
+                        <p class="title">Eclipse IDE</p>
+                    </a>
+                    <a class="exp" href="https://code.visualstudio.com">
+                        <span class="icon-vscode"></span>
+                        <p class="title">VSCode</p>
+                    </a>
+                    <a class="exp" href="https://netbeans.org">
+                        <span class="icon-netbeans"></span>
+                        <p class="title">NetBeans</p>
+                    </a>
+                    <a class="exp" href="https://www.jetbrains.com/idea/">
+                        <span class="icon-intellij"></span>
+                        <p class="title">Intellij</p>
+                    </a>
+                    <a class="exp" href="https://getbootstrap.com">
+                        <span class="icon-bootstrap"></span>
+                        <p class="title">Bootstrap</p>
+                    </a>
+                </div>
+
+                <div id="projects">
+                    <h2>My projects</h2>
+                    <div class="project">
+                        <p class="title">Yato | 夜ト</p>
+                        <p class="desc">Discord music bot made with java</p>
+                        <img src="https://images.discordapp.net/avatars/454272495114256394/5849b45dc61dafb6cd1fdece1ede3efa.png?size=512" alt="Yato discord music bot">
+                        <a class="code" href="https://github.com/fernandopal/yato">source code</a>
+                    </div>
+                    <div class="project">
+                        <p class="title">www.fernandopal.es</p>
+                        <p class="desc">My personal website, where you are right now</p>
+                        <img src="img/favicon.jpg" alt="Yato discord music bot">
+                        <a class="code" href="https://github.com/fernandopal/fernandopal.es">source code</a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </body>
+
+        <!-- OTHER JS -->
+        <script src="js/effects.js"></script>
+    </body>
 </html>
