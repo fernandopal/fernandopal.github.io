@@ -1,0 +1,7 @@
+User-Agent: *
+Disallow: 
+Allow: /
+Disallow: /icons
+Disallow: /js
+
+Sitemap: https://www.fernandopal.es/sitemap.xml
