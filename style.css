@@ -73,7 +73,7 @@
 }
 
 /* HOME SECTION */
-#home { background-image: url(img/bg1-large.jpg); }
+#home { background-image: url(img/bg1-large.webp); }
 #home .main-text { color: var(--white); }
 
 #goDown {
