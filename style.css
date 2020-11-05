@@ -11,15 +11,11 @@
     --white: #fffffc;
     --black: #111111;
 
-    --secondary-color: #1d1d1d;
+    --secondary-bg-color: #1d1d1d;
 
     --navbar-height: 3rem;
     --navbar-font-size: 1.5rem;
     --navbar-bg-color: rgba(18,18,18,0.7);
-    --navbar-bg-color-alt: var(--secondary-color);
-
-    --project-bg-color: var(--secondary-color);
-    --experience-bg-color: var(--secondary-color);
 }
 
 * {
@@ -46,7 +42,7 @@
     height: var(--navbar-height);
     line-height: var(--navbar-height);
     font-size: var(--navbar-font-size);
-    background-color: var(--navbar-bg-color);
+    background-color: var(--secondary-bg-color);
     z-index: 9;
     padding: 0 1rem;
     transition: ease-in 1s;
@@ -88,6 +84,12 @@
 #home { background-image: url(img/bg1-small.jpg); }
 #home .main-text { color: var(--white); }
 
+#home .studies > div {
+    color: var(--red);
+    font-size: 1.5rem;
+    display: block;
+}
+
 #goDown {
     position: fixed;
     bottom: 5%; left: 50%;
@@ -116,7 +118,7 @@
 }
 
 #projects > .project {
-    background-color: var(--project-bg-color);
+    background-color: var(--secondary-bg-color);
     border-radius: 4px;
     display: inline-block;
     margin: 2.5rem; padding: 0.5rem 1rem;
@@ -172,7 +174,7 @@
 }
 
 #experience > a.exp {
-    background-color: var(--experience-bg-color);
+    background-color: var(--secondary-bg-color);
     border-radius: 4px;
     margin: 0.5rem; padding: 1rem;
     display: inline-block;
@@ -213,6 +215,11 @@
     .section {
         font-size: 1.5rem;
     }
+
+    #home .studies {
+        display: none;
+    }
+    
 }
 
 @media(max-width: 450px) {
