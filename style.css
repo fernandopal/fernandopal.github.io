@@ -182,6 +182,7 @@
     bottom: 0; left: auto;
     font-size: 1.5rem;
     color: var(--white);
+    white-space: nowrap;
 }
 
 /* @MEDIA TAGS */
