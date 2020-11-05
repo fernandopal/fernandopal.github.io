@@ -1,18 +1,16 @@
 @font-face {
-    font-family: "icomoon";
-    font-weight: 400;
-    font-style: normal;
-    font-display: block;
-    unicode-range: U+000-5FF;
+    font-family: icomoon;
     src:url(fonts/icomoon.eot?nqq52z);
     src:url(fonts/icomoon.eot?nqq52z#iefix) format("embedded-opentype"),
         url(fonts/icomoon.ttf?nqq52z) format("truetype"),
         url(fonts/icomoon.woff?nqq52z) format("woff"),
         url(fonts/icomoon.svg?nqq52z#icomoon) format("svg");
+    font-weight: 400;
+    font-style: normal;
+    font-display: block;
 }
 
-[class*=" icon-"],
-[class^="icon-"] {
+[class*=" icon-"], [class^="icon-"] {
     font-family: icomoon !important;
     speak: never;
     font-style: normal;
@@ -23,21 +21,27 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
 .icon-bootstrap:before {
     content: "\e900";
 }
+
 .icon-vscode:before {
     content: "\e902";
 }
+
 .icon-mysql:before {
     content: "\e903";
 }
+
 .icon-eclipse:before {
     content: "\e904";
 }
+
 .icon-intellij:before {
     content: "\e907";
 }
+
 .icon-netbeans:before {
     content: "\e908";
 }
