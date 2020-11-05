@@ -6,8 +6,6 @@ $(document).ready(function() {
         scrollOverflowReset: false,
         onLeave: function(origin, destination, direction){
             var leavingSection = this;
-            
-            console.log(origin.index);
 
             if(destination.index == 0) {
                 $("#header").css("background-color", "var(--navbar-bg-color)");
