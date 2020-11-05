@@ -1,18 +1,18 @@
 @font-face {
-  font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?na5mi3');
-  src:  url('fonts/icomoon.eot?na5mi3#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?na5mi3') format('truetype'),
-    url('fonts/icomoon.woff?na5mi3') format('woff'),
-    url('fonts/icomoon.svg?na5mi3#icomoon') format('svg');
+  font-family: 'fernandopal-icons';
+  src:  url('fonts/fernandopal-icons.eot?nc5z3z');
+  src:  url('fonts/fernandopal-icons.eot?nc5z3z#iefix') format('embedded-opentype'),
+    url('fonts/fernandopal-icons.ttf?nc5z3z') format('truetype'),
+    url('fonts/fernandopal-icons.woff?nc5z3z') format('woff'),
+    url('fonts/fernandopal-icons.svg?nc5z3z#fernandopal-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+i {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  font-family: 'fernandopal-icons' !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
