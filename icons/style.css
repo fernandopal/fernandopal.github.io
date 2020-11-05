@@ -1,18 +1,17 @@
 @font-face {
-  font-family: 'fernandopal-icons';
-  src:  url('fonts/fernandopal-icons.eot?nc5z3z');
-  src:  url('fonts/fernandopal-icons.eot?nc5z3z#iefix') format('embedded-opentype'),
-    url('fonts/fernandopal-icons.ttf?nc5z3z') format('truetype'),
-    url('fonts/fernandopal-icons.woff?nc5z3z') format('woff'),
-    url('fonts/fernandopal-icons.svg?nc5z3z#fernandopal-icons') format('svg');
+  font-family: 'fernandopal';
+  src:
+    url('fonts/fernandopal.ttf?7urbgf') format('truetype'),
+    url('fonts/fernandopal.woff?7urbgf') format('woff'),
+    url('fonts/fernandopal.svg?7urbgf#fernandopal') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-i {
+[class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'fernandopal-icons' !important;
+  font-family: 'fernandopal' !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
