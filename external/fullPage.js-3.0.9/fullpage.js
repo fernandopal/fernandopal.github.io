@@ -3449,16 +3449,9 @@
         */
         function displayWarnings(){
             var l = options['li' + 'c' + 'enseK' + 'e' + 'y'];
-            var msgStyle = 'font-size: 15px;background:yellow;';
 
-            if(!isOK){
-                showError('error', 'Fullpage.js version 3 has changed its license to GPLv3 and it requires a `licenseKey` option. Read about it here:');
-                showError('error', 'https://github.com/alvarotrigo/fullPage.js#options.');
-            }
-            else if(l && l.length < 20){
-                console.warn('%c This website was made using fullPage.js slider. More info on the following website:', msgStyle);
-                console.warn('%c https://alvarotrigo.com/fullPage/', msgStyle);
-            }
+            console.info('%c> This website was made using fullPage.js slider. More info on the following website:', 'color: yellow;');
+            console.info('%c> https://alvarotrigo.com/fullPage/', 'color: yellow;');
 
             if(hasClass($html, ENABLED)){
                 showError('error', 'Fullpage.js can only be initialized once and you are doing it multiple times!');
