@@ -64,18 +64,21 @@
 }
 
 #header a {
-    transition: ease-in 0.25s;
+    transition: ease-in 0.2s;
     text-decoration: none;
     color: var(--white);
-    padding: 0 0.5rem;
+    padding: 0 0.25rem;
 }
 
 #header li:hover a {
     color: var(--red);
 }
 
-#header li a > span.link-text {
-    display: none;
+#header .link-text {
+    transition: ease-in 0.1s;
+    font-size: 0;
+    display: inline;
+    color: var(--red);
 }
 
 /* HOME SECTION */
@@ -199,7 +202,7 @@
 /* @MEDIA TAGS */
 @media(min-width: 550px) {
     #header li:hover a > span.link-text {
-        display: inline;
+        font-size: var(--navbar-font-size);
     }
 }
 
