@@ -11,12 +11,15 @@
     --white: #fffffc;
     --black: #111111;
 
+    --secondary-color: #3f3f3f;
+
     --navbar-height: 3rem;
     --navbar-font-size: 1.5rem;
     --navbar-bg-color: rgba(18,18,18,0.7);
-    --navbar-bg-color-alt: rgba(255, 255, 252, 0.1);
+    --navbar-bg-color-alt: var(--secondary-color);
 
-    --project-bg-color: rgba(255, 255, 252, 0.1);
+    --project-bg-color: var(--secondary-color);
+    --experience-bg-color: var(--secondary-color);
 }
 
 * {
@@ -169,7 +172,7 @@
 }
 
 #experience > a.exp {
-    background-color: var(--project-bg-color);
+    background-color: var(--experience-bg-color);
     border-radius: 4px;
     margin: 0.5rem; padding: 1rem;
     display: inline-block;
