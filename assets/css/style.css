@@ -13,6 +13,7 @@
 
     --primary-color: var(--red);
     --secondary-color: var(--orange);
+    --basic-text-color: var(--white);
     --primary-bg-color: #111111;
     --secondary-bg-color: #1d1d1d;
     --home-background-image: url(assets/img/bg1-small.jpg);
@@ -58,7 +59,7 @@
 
 #header .h-title {
     text-align: left;
-    color: var(--red);
+    color: var(--primary-color);
     text-decoration: none;
 }
 
@@ -69,27 +70,27 @@
 #header a {
     transition: ease-in 0.2s;
     text-decoration: none;
-    color: var(--white);
+    color: var(--basic-text-color);
     padding: 0 0.25rem;
 }
 
 #header li:hover a {
-    color: var(--red);
+    color: var(--primary-color);
 }
 
 #header .link-text {
     transition: ease-in 0.1s;
     font-size: 0;
     display: inline;
-    color: var(--red);
+    color: var(--primary-color);
 }
 
 /* HOME SECTION */
 #home { background-image: var(--home-background-image); }
-#home .main-text { color: var(--white); }
+#home .main-text { color: var(--basic-text-color); }
 
 #home .studies > div {
-    color: var(--red);
+    color: var(--primary-color);
     font-size: 1.5rem;
     display: block;
 }
@@ -101,16 +102,16 @@
     margin-left: -1.5rem;
     transition: ease-in 0.2s;
     animation: bounce 1000ms linear infinite both;
-    color: var(--white);
+    color: var(--basic-text-color);
 }
 
 #goDown:hover {
-    color: var(--red);
+    color: var(--primary-color);
 }
 
 /* MAIN SECTION */
 #main {
-    color: var(--white);
+    color: var(--basic-text-color);
     padding-top: var(--navbar-height);
 }
 
@@ -136,7 +137,7 @@
 #projects > .project > p.title {
     font-size: 2rem;
     font-weight: bold;
-    color: var(--orange);
+    color: var(--secondary-color);
 }
 
 #projects > .project > p.desc {
@@ -155,7 +156,7 @@
 }
 
 #projects > .project > a.code:hover {
-    color: var(--white);
+    color: var(--basic-text-color);
     background-color: var(--black);
 }
 
@@ -192,19 +193,19 @@
 }
 
 #experience > a.exp:hover > i {
-    color: var(--red);
+    color: var(--primary-color);
 }
 
 #experience > a.exp > i {
     font-size: 4rem;
-    color: var(--orange);
+    color: var(--secondary-color);
 }
 
 #experience > a.exp > p.title {
     position: relative;
     bottom: 0; left: auto;
     font-size: 1.5rem;
-    color: var(--white);
+    color: var(--basic-text-color);
     white-space: nowrap;
 }
 
