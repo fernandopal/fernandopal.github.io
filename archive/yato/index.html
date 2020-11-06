@@ -20,18 +20,6 @@
     <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166305177-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-166305177-1');
-    </script>
-
-    <script data-ad-client="ca-pub-5572749449601640" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   </head>
 
   <body>
@@ -56,72 +44,10 @@
     </div>
   </header>
 
-  <?php
-    // $conn = new mysqli("35.246.152.239", "root", "@1NplBSJ$6NUNRCt74w@", "yato");
-    // if ($conn->connect_error) { die("Connection failed: " . $conn->connect_error); }
-  ?>
-
   <section id="home">
     <div class="home-container">
       <h1>Hi, I'm Yato</h1>
       <h2><span>HQ Music bot with distributed load 24/7 online</h2>
-
-      <!-- <div class="container">
-        <div class="row counters">
-          <div class="col-lg-3 col-6 text-center">
-            <?php
-              // $result = $conn->query("SELECT guilds FROM bot;");
-              // if ($result->num_rows > 0) {
-              //   while($row = $result->fetch_assoc()) {
-              //     echo "<span data-toggle='counter-up'>" . $row["guilds"] . "</span>";
-              //   }
-              // } else {
-              //   echo "<span data-toggle='counter-up'>0</span>";
-              // }
-            ?>
-            <p>Servers</p>
-          </div>
-          <div class="col-lg-3 col-6 text-center">
-            <?php
-              // $result = $conn->query("SELECT users FROM bot;");
-              // if ($result->num_rows > 0) {
-              //   while($row = $result->fetch_assoc()) {
-              //     echo "<span data-toggle='counter-up'>" . $row["users"] . "</span>";
-              //   }
-              // } else {
-              //   echo "<span data-toggle='counter-up'>0</span>";
-              // }
-            ?>
-            <p>Users</p>
-          </div>
-          <div class="col-lg-3 col-6 text-center">
-            <?php
-              // $result = $conn->query("SELECT SUM(total_plays) AS tp FROM songs;");
-              // if ($result->num_rows > 0) {
-              //   while($row = $result->fetch_assoc()) {
-              //     echo "<span data-toggle='counter-up'>" . $row["tp"] . "</span>";
-              //   }
-              // } else {
-              //   echo "<span data-toggle='counter-up'>0</span>";
-              // }
-            ?>
-            <p>songs played</p>
-          </div>
-          <div class="col-lg-3 col-6 text-center">
-            <?php
-              // $result = $conn->query("SELECT shards FROM bot;");
-              // if ($result->num_rows > 0) {
-              //   while($row = $result->fetch_assoc()) {
-              //     echo "<span data-toggle='counter-up'>" . $row["shards"] . "</span>";
-              //   }
-              // } else {
-              //   echo "<span data-toggle='counter-up'>0</span>";
-              // }
-            ?>
-            <p>Shards</p>
-          </div>
-        </div>
-      </div> -->
       
       <a href="#features" class="btn-get-started">Show it to me</a>
     </div>
@@ -272,6 +198,5 @@
     <script src="lib/superfish/hoverIntent.js"></script>
     <script src="lib/superfish/superfish.min.js"></script>
     <script src="js/main.js"></script>
-    <?php $conn->close(); ?>
   </body>
 </html>
