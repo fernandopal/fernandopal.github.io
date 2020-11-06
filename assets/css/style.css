@@ -11,7 +11,11 @@
     --white: #fffffc;
     --black: #111111;
 
+    --primary-color: var(--red);
+    --secondary-color: var(--orange);
+    --primary-bg-color: #111111;
     --secondary-bg-color: #1d1d1d;
+    --home-background-image: url(assets/img/bg1-small.jpg);
 
     --navbar-height: 3rem;
     --navbar-font-size: 1.5rem;
@@ -81,7 +85,7 @@
 }
 
 /* HOME SECTION */
-#home { background-image: url(img/bg1-small.jpg); }
+#home { background-image: var(--home-background-image); }
 #home .main-text { color: var(--white); }
 
 #home .studies > div {
