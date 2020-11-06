@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Yato | 夜ト</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="discord bot, discord, bot, music, music discord, music discord bot, bot music, yato, yato discord, yato bot">
+    <meta content="" name="HQ Music bot with distributed load 24/7 online">
+    <meta http-equiv="Cache-control" content="public">
+
+    <link href="img/favicon.png" rel="icon">
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166305177-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-166305177-1');
+    </script>
+
+    <script data-ad-client="ca-pub-5572749449601640" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  </head>
+
+  <body>
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <h1><a href="#home">Yato</a></h1>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#home">Home</a></li>
+          <li><a href="https://discord.com/oauth2/authorize?client_id=454272495114256394&permissions=8&scope=bot">Add to discord</a></li>
+          <li><a href="https://discord.gg/TSHGVQt">Support server</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#donate">Donate</a></li>
+          <li><a href="#commands">Commands</a></li>
+          <!-- <li><a href="/dashboard">Dashboard</a></li> -->
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <?php
+    // $conn = new mysqli("35.246.152.239", "root", "@1NplBSJ$6NUNRCt74w@", "yato");
+    // if ($conn->connect_error) { die("Connection failed: " . $conn->connect_error); }
+  ?>
+
+  <section id="home">
+    <div class="home-container">
+      <h1>Hi, I'm Yato</h1>
+      <h2><span>HQ Music bot with distributed load 24/7 online</h2>
+
+      <!-- <div class="container">
+        <div class="row counters">
+          <div class="col-lg-3 col-6 text-center">
+            <?php
+              // $result = $conn->query("SELECT guilds FROM bot;");
+              // if ($result->num_rows > 0) {
+              //   while($row = $result->fetch_assoc()) {
+              //     echo "<span data-toggle='counter-up'>" . $row["guilds"] . "</span>";
+              //   }
+              // } else {
+              //   echo "<span data-toggle='counter-up'>0</span>";
+              // }
+            ?>
+            <p>Servers</p>
+          </div>
+          <div class="col-lg-3 col-6 text-center">
+            <?php
+              // $result = $conn->query("SELECT users FROM bot;");
+              // if ($result->num_rows > 0) {
+              //   while($row = $result->fetch_assoc()) {
+              //     echo "<span data-toggle='counter-up'>" . $row["users"] . "</span>";
+              //   }
+              // } else {
+              //   echo "<span data-toggle='counter-up'>0</span>";
+              // }
+            ?>
+            <p>Users</p>
+          </div>
+          <div class="col-lg-3 col-6 text-center">
+            <?php
+              // $result = $conn->query("SELECT SUM(total_plays) AS tp FROM songs;");
+              // if ($result->num_rows > 0) {
+              //   while($row = $result->fetch_assoc()) {
+              //     echo "<span data-toggle='counter-up'>" . $row["tp"] . "</span>";
+              //   }
+              // } else {
+              //   echo "<span data-toggle='counter-up'>0</span>";
+              // }
+            ?>
+            <p>songs played</p>
+          </div>
+          <div class="col-lg-3 col-6 text-center">
+            <?php
+              // $result = $conn->query("SELECT shards FROM bot;");
+              // if ($result->num_rows > 0) {
+              //   while($row = $result->fetch_assoc()) {
+              //     echo "<span data-toggle='counter-up'>" . $row["shards"] . "</span>";
+              //   }
+              // } else {
+              //   echo "<span data-toggle='counter-up'>0</span>";
+              // }
+            ?>
+            <p>Shards</p>
+          </div>
+        </div>
+      </div> -->
+      
+      <a href="#features" class="btn-get-started">Show it to me</a>
+    </div>
+  </section>
+
+  <main id="main">
+    <section id="features">
+      <div class="container">
+        <div class="row features-container">
+          <div class="col-lg-6 content order-lg-1 order-2">
+
+            <h2 class="title">Features</h2>
+            <div class="icon-box wow fadeInUp">
+              <h4 class="title"><a href="">24/7 online</a></h4>
+              <p class="description">Yato is always online for you, we only reboot it to fix errors or add features.</p>
+            </div>
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
+              <h4 class="title"><a href="">HQ Music playback</a></h4>
+              <p class="description">We always try to give you the best music quality and by the moment we're beating one of the biggest bots on that. Do you feel the rythm? ;)</p>
+            </div>
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+              <h4 class="title"><a href="">Load Balancing</a></h4>
+              <p class="description">Leaving all the work to one server it's not practical so thats why we use <a href="https://github.com/Frederikam/Lavalink">Lavalink</a> to distribute our load across a few servers and also give you the best music quality</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="donate">
+      <div class="container wow fadeIn">
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3 class="donate-title">Help maintaining Yato</h3>
+            <p class="donate-text"></p>
+          </div>
+          <div class="col-lg-3 donate-btn-container text-center">
+            <a class="donate-btn align-middle" href="https://www.patreon.com/yatods">Patreon</a>
+            <a class="donate-btn align-middle" href="https://www.paypal.me/fernandopm00">Paypal</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <main id="main">
+    <section id="commands">
+      <div class="container">
+        <div class="row commands-container">
+          <h2 class="title">Commands</h2>
+        </div>
+        <p>Prefix: <b>y:</b> or <b>custom</b></p>
+        <button type="button" class="collapse-btn" data-toggle="collapse" data-target="#configcmds">Config</button>
+          <button type="button" class="collapse-btn" data-toggle="collapse" data-target="#generalcmds">General</button>
+          <button type="button" class="collapse-btn" data-toggle="collapse" data-target="#musiccmds">Music</button>
+          <div class="accordion" id="commandsAcc">
+
+            <div id="configcmds" class="collapse" aria-labelledby="cConfig" data-parent="#commandsAcc">
+              <div class="card-body">
+                <table class="tg">
+                  <thead>
+                    <tr> <th class="tg-baqh">Command</th> <th class="tg-baqh">Description</th> <th class="tg-baqh">Aliasses</th> </tr>
+                  </thead>
+                  <tbody>
+                    <tr> <td class="tg-baqh">setprefix (new prefix)</td> <td class="tg-baqh">change the prefix for the bot in your server</td> <td class="tg-baqh">-</td> </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div id="generalcmds" class="collapse" aria-labelledby="cGeneral" data-parent="#commandsAcc">
+              <div class="card-body">
+                <table class="tg">
+                  <thead>
+                    <tr> <th class="tg-baqh">Command</th> <th class="tg-baqh">Description</th> <th class="tg-baqh">Aliasses</th> </tr>
+                  </thead>
+                  <tbody>
+                    <tr> <td class="tg-baqh">help</td> <td class="tg-baqh">show the help menu with all the commands</td> <td class="tg-baqh">-</td> </tr>
+                    <tr> <td class="tg-baqh">ping</td> <td class="tg-baqh">shows the current respond time of the bot to discord servers</td> <td class="tg-baqh">-</td> </tr>
+                    <tr> <td class="tg-baqh">status</td> <td class="tg-baqh">hows the current per shard status</td> <td class="tg-baqh">shards</td> </tr>
+                    <tr> <td class="tg-baqh">bot</td> <td class="tg-baqh">show general info about the bot</td> <td class="tg-baqh">info</td> </tr>
+                    <tr> <td class="tg-baqh">donate</td> <td class="tg-baqh">show where you can donate to contribute with the project</td> <td class="tg-baqh">paypal/patreon/rewards</td> </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            
+            <!-- <div id="musiccmds" class="collapse show" aria-labelledby="cMusic" data-parent="#commandsAcc"> -->
+            <div id="musiccmds" class="collapse" aria-labelledby="cMusic" data-parent="#commandsAcc">
+              <div class="card-body">
+                <table class="tg">
+                  <thead>
+                    <tr> <th class="tg-baqh">Command</th> <th class="tg-baqh">Description</th> <th class="tg-baqh">Aliasses</th> </tr>
+                  </thead>
+                  <tbody>
+                    <tr> <td class="tg-baqh">join</td> <td class="tg-baqh">yato will join the voice channel you're in</td> <td class="tg-baqh">-</td> </tr>
+                    <tr> <td class="tg-baqh">nowplaying</td> <td class="tg-baqh">see what is currently playing</td> <td class="tg-baqh">np</td> </tr>
+                    <tr> <td class="tg-baqh">pause</td> <td class="tg-baqh">pause the player (leaving the songs in queue)</td> <td class="tg-baqh">-</td> </tr>
+                    <tr> <td class="tg-baqh">play</td> <td class="tg-baqh">if the player is paused, resume it</td> <td class="tg-baqh">p</td> </tr>
+                    <tr> <td class="tg-baqh">play (something)</td> <td class="tg-baqh">play a song from a url or by keywords</td> <td class="tg-baqh">p (something)</td> </tr>
+                    <tr> <td class="tg-baqh">play sotd</td> <td class="tg-baqh">play the most played song from today</td> <td class="tg-baqh">p sotd</td> </tr>
+                    <tr> <td class="tg-baqh">queue</td> <td class="tg-baqh">show the next 10 songs in queue</td> <td class="tg-baqh">lq/q</td> </tr>
+                    <tr> <td class="tg-baqh">repeat</td> <td class="tg-baqh">repeat the queue</td> <td class="tg-baqh">endless/loop</td> </tr>
+                    <tr> <td class="tg-baqh">shufle</td> <td class="tg-baqh">shuffle the queue</td> <td class="tg-baqh">-</td> </tr>
+                    <tr> <td class="tg-baqh">skip</td> <td class="tg-baqh">skip the current song</td> <td class="tg-baqh">s/next</td> </tr>
+                    <tr> <td class="tg-baqh">skip (x)</td> <td class="tg-baqh">skip x number of songs</td> <td class="tg-baqh">s/next</td> </tr>
+                    <tr> <td class="tg-baqh">stop</td> <td class="tg-baqh">clear the queue and stop the player</td> <td class="tg-baqh">-</td> </tr>
+                    <tr> <td class="tg-baqh">clear</td> <td class="tg-baqh">clear the queue</td> <td class="tg-baqh">-</td> </tr>
+                    <tr> <td class="tg-baqh">random</td> <td class="tg-baqh">play a random song</td> <td class="tg-baqh">-</td> </tr>
+                    <tr> <td class="tg-baqh">random (x)</td> <td class="tg-baqh">play x number of random songs</td> <td class="tg-baqh">-</td> </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+          </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright 2019-2020 <strong>Yato</strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          Designed by <a href="https://www.fernandopal.es/">fernandopal</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a> -->
+
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/superfish/hoverIntent.js"></script>
+    <script src="lib/superfish/superfish.min.js"></script>
+    <script src="js/main.js"></script>
+    <?php $conn->close(); ?>
+  </body>
+</html>
