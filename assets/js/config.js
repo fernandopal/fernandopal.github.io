@@ -10,7 +10,7 @@ $(document).ready(function() {
             if(destination.index == 0) {
                 $("#header").css("background-color", "var(--navbar-bg-color)");
             } else if(origin.index == 0) {
-                $("#header").css("background-color", "var(--navbar-bg-color-alt)");
+                $("#header").css("background-color", "var(--secondary-bg-color)");
             }
         }
     });

@@ -16,7 +16,7 @@
     --basic-text-color: var(--white);
     --primary-bg-color: #111111;
     --secondary-bg-color: #1d1d1d;
-    --home-background-image: url(assets/img/bg1-small.jpg);
+    --home-background-image: url(../img/bg1-small.jpg);
 
     --navbar-height: 3rem;
     --navbar-font-size: 1.5rem;
@@ -47,10 +47,10 @@
     height: var(--navbar-height);
     line-height: var(--navbar-height);
     font-size: var(--navbar-font-size);
-    background-color: var(--secondary-bg-color);
+    background-color: var(--navbar-bg-color);
     z-index: 9;
     padding: 0 1rem;
-    transition: ease-in 1s;
+    transition: ease-in 0.5s;
 }
 
 #header * {
