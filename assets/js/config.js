@@ -1,6 +1,7 @@
 $(document).ready(function() {
     $('#fullpage').fullpage({
         sectionsColor: ['var(--black)', 'var(--black)'],
+        licenseKey: '25J0H@S%i7',
         keyboardScrolling: true,
         scrollOverflow: true,
         scrollOverflowReset: false,
