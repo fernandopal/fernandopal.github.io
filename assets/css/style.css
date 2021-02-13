@@ -30,6 +30,11 @@
     font-family: 'Titillium Web', sans-serif;
 }
 
+#tabla-precios {
+    background-color: var(--secondary-bg-color);
+
+}
+
 /* SECTION GENERAL CSS */
 .section{
     font-size: 2rem;
