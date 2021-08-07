@@ -3,7 +3,7 @@ $(document).on('click', '#goDown', function(){
 });
 
 if ($(".subtitle").length == 1) { 
-    var typed_strings = "Desarrollador de Aplicaciones Web, Técnico en Sistemas Microinformáticos y Redes"; 
+    var typed_strings = "Salesforce Developer, Desarrollador de Aplicaciones Web, Técnico en Sistemas Microinformáticos y Redes"; 
     var typed = new Typed(".subtitle", { 
         strings: typed_strings.split(", "), 
         typeSpeed: 50, 
