@@ -29,10 +29,6 @@
 	font-family: 'Titillium Web', sans-serif
 }
 
-#tabla-precios {
-	background-color: var(--secondary-bg-color)
-}
-
 .section {
 	font-size: 2rem;
 	text-align: center;
@@ -100,137 +96,14 @@
 	color: var(--basic-text-color)
 }
 
-#home .studies>div {
-	color: var(--primary-color);
-	font-size: 1.5rem;
-	display: block
-}
 
 #goDown {
-	position: fixed;
-	bottom: 5%;
-	left: 50%;
-	font-size: 3rem;
-	margin-left: -1.5rem;
-	-webkit-transition: ease-in .2s;
-	-o-transition: ease-in .2s;
-	transition: ease-in .2s;
-	-webkit-animation: bounce 1s linear infinite both;
-	animation: bounce 1s linear infinite both;
-	color: var(--basic-text-color)
-}
-
-#goDown:hover {
-	color: var(--primary-color)
+	display: none;
 }
 
 #main {
 	color: var(--basic-text-color);
 	padding-top: var(--navbar-height)
-}
-
-#projects>h2 {
-	border-bottom: 1px solid var(--white);
-	margin: 0 auto;
-	padding: .5rem;
-	font-size: 1.9rem;
-	max-width: 95%;
-	margin-bottom: 2rem;
-}
-
-#projects>.project {
-	background-color: var(--secondary-bg-color);
-	border-radius: 4px;
-	display: inline-block;
-	margin-top: 1rem;
-	padding: 1rem
-}
-
-#projects>.project>img {
-	max-width: 20rem;
-	border-radius: 4px;
-	float: left
-}
-
-#projects>.project>div {
-	max-width: 40rem;
-	float: left;
-	padding: 0 1rem;
-	text-align: left
-}
-
-#projects>.project>div>p.title {
-	font-size: 2rem;
-	font-weight: 700;
-	color: var(--secondary-color)
-}
-
-#projects>.project>div>p.desc {
-	font-size: 1rem
-}
-
-#projects>.project>div>a.code {
-	text-decoration: none;
-	color: var(--black);
-	font-size: 15px;
-	padding: 0 .5rem;
-	background-color: var(--white);
-	border-radius: 4px;
-	white-space: nowrap
-}
-
-#projects>.project>div>a.code:hover {
-	background-color: var(--secondary-color)
-}
-
-#experience {
-	margin: 2.5rem
-}
-
-#experience>h2 {
-	border-bottom: 1px solid var(--white);
-	margin: 0 auto 2.5rem auto;
-	padding: .5rem;
-	font-size: 2rem;
-	max-width: 95%
-}
-
-#experience>a.exp {
-	background-color: var(--secondary-bg-color);
-	border-radius: 4px;
-	margin: .5rem;
-	padding: 1rem;
-	display: inline-block;
-	width: 10rem;
-	height: 10rem;
-	-webkit-transition: .5s;
-	-o-transition: .5s;
-	transition: .5s;
-	text-decoration: none
-}
-
-#experience>a.exp:hover {
-	-webkit-transform: scale(1.1);
-	-ms-transform: scale(1.1);
-	transform: scale(1.1)
-}
-
-#experience>a.exp:hover>i {
-	color: var(--primary-color)
-}
-
-#experience>a.exp>i {
-	font-size: 4rem;
-	color: var(--secondary-color)
-}
-
-#experience>a.exp>p.title {
-	position: relative;
-	bottom: 0;
-	left: auto;
-	font-size: 1.5rem;
-	color: var(--basic-text-color);
-	white-space: nowrap
 }
 
 @media(min-width: 550px) {
