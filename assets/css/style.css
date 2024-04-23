@@ -15,7 +15,7 @@
 	--basic-text-color: var(--white);
 	--primary-bg-color: #111111;
 	--secondary-bg-color: #1d1d1d;
-	--home-background-image: url(../img/bg1-small.jpg);
+	--home-background-image: url('https://static.fpalomo.es/bg1-small.jpg');
 	--navbar-height: 3rem;
 	--navbar-font-size: 1.5rem;
 	--navbar-bg-color: rgba(18, 18, 18, 0.7)
